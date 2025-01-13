@@ -172,7 +172,7 @@
     background-color: #00843C;
     color: white;
     border: none;
-    padding: 9px 27px 9px 27px;
+    padding: 10px 58px 10px 58px;
     border-radius: 8px;
     text-decoration: none;
 
@@ -216,9 +216,17 @@
     padding-bottom: 10px;
 }
 
-.heading-input {
+.heading-input  {
     padding-bottom: 10px;
-
+    background-color: #1018280D;
+   width: 120%;
+    gap: 8px;
+    border-radius: 8px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+}
+.heading-input :focus{
+    background-color: #1018280D;
 }
 
 .modal-header {
@@ -315,32 +323,11 @@ margin: 18px 0 62px 0;;
     .contact-heading{
         padding-left:10px;
     }
-    
+    .heading-input  {
+        width: 90%;
+        margin-left:10px;
+    }
+    .get-directions-btn{
+        padding: 10px 88px 10px 80px;
+    }
 }
-
-/* 
-TODO 
-1 pLEASE ENTER TEXT --box soft shadow  ---------- OK 
-
-2 gap between We’ve  and Select  ---------------- OK
-
-
-3 underline under about me --------------OK
-
-4 make contact us button a lil bigger in size ----------OK
-
-5 contact us button color  -------------- OK 
-
-6 increase padding inside modal --------OK 
-
-7 text bold of 20 miles  ------- OK 
-
-8 form fields needs some exact colring inside it  ---OK 
-
-9 decrase modal size lil bit   ----- OK 
-
-10 align modal in center mobile  ------ OK
-
-11 contact us font size small karo in mobile
-
-*/
