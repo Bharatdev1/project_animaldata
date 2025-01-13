@@ -1,44 +1,50 @@
 /* Fonts */
 :root {
     /*  */
-    --postcode-input-font:Dosis;
-    
+    --postcode-input-font: Dosis;
+
     /* contact us  */
-    --Contactus-header-font:Poppins;   
-    --Contactus-header-color:#00843C;
-    --Contactus-header-size:1rem
+    --Contactus-header-font: Poppins;
+    --Contactus-header-color: #00843C;
+    --Contactus-header-size: 1rem
 }
 
-*{
-    font-family:var(--Contactus-header-font);
+* {
+    font-family: var(--Contactus-header-font);
 }
 
 
 /* ----postcode-section----- */
-.postcode-section{
+.postcode-section {
     display: flex;
     flex: 1 1 100px;
     justify-content: space-evenly;
 }
-.implanters{
+
+.implanters {
     margin: 26px;
 }
-.postcode-input{
+
+.postcode-input {
     /* font-family: var(--postcode-input-font);     */
     font-size: 1.25rem;
     font-weight: 500;
     line-height: 2.45rem;
-text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-width: 70vw;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    width: 70vw;
+    border: 1px solid lightgrey;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 
 }
-::placeholder {
-    /* font-family: var(--postcode-input-font); */
 
-}
-.dropdown-toggle{
+/* ::placeholder {
+     font-family: var(--postcode-input-font);
+
+}  */
+
+.dropdown-toggle {
     border: 1px solid lightgray;
     padding: 11px 28px 11px 20px;
     border-radius: 10px;
@@ -46,87 +52,96 @@ width: 70vw;
 
 /*-- Result Section --  */
 
-.result-heading{
+.result-heading {
     /* font-family: var(--Contactus-header-font); */
-font-size: 1.75rem;
-font-weight: 600;
-line-height: 2.275rem;
-text-align: left;
+    font-size: 1.75rem;
+    font-weight: 600;
+    line-height: 2.275rem;
+    text-align: left;
+    margin-top: 22px;
+    margin-bottom: 15px ;
 }
 
-.contact-heading > span {
+.contact-heading>span {
     padding-left: 5px;
 }
 
-.result-subheading{
+.result-subheading {
     font-size: 18px;
     font-weight: 500;
     line-height: 1.125rem;
-    text-align: left;   
+    text-align: left;
+    margin-bottom: 32px ;
+
 }
 
 
 
 /*------ Map Section ----------*/
 
-.map-section{
-    width: 100%;  
-    height: 100%; 
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
+.map-section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     overflow: hidden;
 }
+
 .map-section img {
-    width: 100%; 
-    height: 100%; 
+    width: 100%;
+    height: 100%;
     object-fit: contain;
 }
 
 
 /* Contact Us  */
-.contactus-section{
+.contactus-section {
     margin-top: 30px;
 }
 
-.card-title-span{
-font-size: 1.5rem;
-font-weight: 600;
-line-height: 1.25rem;
-text-align: left;
-color: #001232;
-padding-left: 10px;
+.card-title-span {
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.25rem;
+    text-align: left;
+    color: #001232;
+    padding-left: 8px;
 }
-.contact-heading{
+
+.contact-heading {
     color: #00843C;
     font-family: Poppins;
-font-size: 16px;
-font-weight: 500;
-line-height: 1.25rem;
-text-align: left;   
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.25rem;
+    text-align: left;
 
 }
 
-.contact-pera{
-font-size: 0.75rem;
-font-weight: 500;
-line-height: 1.05rem;
-text-align: left;
+.contact-pera {
+    font-size: 0.75rem;
+    font-weight: 500;
+    line-height: 1.05rem;
+    text-align: left;
 }
 
-.contact-button{
+.contact-button {
     margin-top: 20px;
     font-family: Dosis;
-font-size: 1.375rem;
-font-weight: 600;
-line-height: 2.45rem;
-text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-padding: 0px 30%;
-
+    font-size: 1.375rem;
+    font-weight: 600;
+    line-height: 2.45rem;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    padding: 0px 30%;
+    margin: -23px 0 1px 3px;
+    height: 48px;
+    background-color: #00843C;
 }
-.popup-card{
+
+.popup-card {
     text-align: left;
 }
 
@@ -136,6 +151,7 @@ padding: 0px 30%;
 .modal-header {
     border-bottom: none;
 }
+
 .contact-card {
     background-color: #f9f9f9;
     /* padding: 20px; */
@@ -143,107 +159,185 @@ padding: 0px 30%;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     width: 100%;
 }
+
 .contact-card .profile-img {
     border-radius: 50%;
     width: 80px;
     height: 80px;
 }
+
 .get-directions-btn {
     display: block;
     text-align: left;
-    background-color: #28a745;
+    background-color: #00843C;
     color: white;
     border: none;
-    padding: 10px 50px 10px 60px;
+    padding: 9px 27px 9px 27px;
     border-radius: 8px;
     text-decoration: none;
+
+    font-family: Dosis;
+    font-weight: bold;
 }
+
 .get-directions-btn:hover {
     background-color: #218838;
     color: white;
 }
+
 .modal-body .form-control {
     margin-bottom: 15px;
 }
 
-
-
-.modal-title{
-display: flex;
-justify-content: center;
-align-items: center;
+.modal-body {
+    display: flex;              /* Enable Flexbox */
+    justify-content: center;    /* Center horizontally */
+    align-items: center;        /* Center vertically */
+    flex-direction: column;     /* Stack child elements vertically */
+    height: 100%;               /* Ensure full height of the modal body */
+    text-align: center;         /* Optional: Center text content */
+    padding: 0;                 /* Adjust padding if needed */
 }
+
+.modal-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* modal ends */
 
 
-.heading-popup{
+.heading-popup {
     color: #344054;
-font-size: 1.375rem;
-font-weight: 600;
-line-height: 20px;
-padding-bottom: 10px;
+    font-size: 1.375rem;
+    font-weight: 600;
+    line-height: 20px;
+    padding-bottom: 10px;
 }
 
-.heading-input{
-padding-bottom: 10px;
+.heading-input {
+    padding-bottom: 10px;
 
 }
-.modal-header{
+
+.modal-header {
     background-color: #00843C1A;
 }
-.modal-title{
-font-size: 2.25rem;
-font-weight: 600;
-line-height: 36.4px;
+
+.modal-title {
+    font-size: 2.25rem;
+    font-weight: 600;
+    line-height: 36.4px;
 
 }
-.card-location{
+
+.card-location {
     color: #00843C;
 }
 
-.card{
+.card {
     margin-bottom: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
 }
 
-.custom-modal-width {
-    max-width: 90%; /* Increase modal width to 90% of the viewport */
-    width: 1000px; /* Or set a specific fixed width */
+.card-body hr {
+    /* border: 1px solid #ccc; Adjust thickness and color */
+    width: 100%; /* Make the <hr> span the full width */
+  
 }
-/* Mobile Design  */
+
+.card-para-end{
+  margin-bottom: -22px;
+}
+
+
+.form-contact-us{
+    background-color: #00843C;
+    padding: 1px 0 1px 0 ;
+    padding: 8px 0 8px 0px;
+    font-family: Dosis;
+font-size: 22px;
+font-weight: 600;
+
+}
+.closebutton{
+    background-color: none;
+}
+
 
 /* Below 768px */
 @media (max-width: 768px) {
 
-    .postcode-section{
+    .postcode-section {
         justify-content: space-around;
     }
-    .dropdown-toggle{
+
+    .dropdown-toggle {
         border: 1px solid lightgray;
-        padding: 13px 31px  13px 8px;
+        padding: 13px 31px 13px 8px;
     }
-    .postcode-input{
+
+    .postcode-input {
         font-size: 1.0rem;
-        width: 152px;
-    font-size: 0.9rem;
+        width: 186px;
+        font-size: 0.9rem;
     }
-    .postcode-search-btn{
+
+    .postcode-search-btn {
         width: 45px;
         height: 45px;
     }
-    .postcode-search-btn >img {
+
+    .postcode-search-btn>img {
         width: 100%;
         height: 100%;
     }
 
-    .dropdown{
+    .dropdown {
         width: com;
     }
 
     .dropdown-toggle {
-        padding: 13px 28px 13px 20px;
+        padding: 11px 5px 11px 5px;
     }
 
-    .card{
+    .card {
         margin-bottom: 18px;
     }
+    .modal-title{
+        font-size: 1.50rem;
+    }
+    .contact-heading{
+        padding-left:10px;
+    }
+    
 }
+
+/* 
+TODO 
+1 pLEASE ENTER TEXT --box soft shadow  ---------- OK 
+
+2 gap between We’ve  and Select  ---------------- OK
+
+
+3 underline under about me --------------OK
+
+4 make contact us button a lil bigger in size ----------OK
+
+5 contact us button color  -------------- OK 
+
+6 increase padding inside modal --------OK 
+
+7 text bold of 20 miles  ------- OK 
+
+8 form fields needs some exact colring inside it  ---OK 
+
+9 decrase modal size lil bit   ----- OK 
+
+10 align modal in center mobile  ------ OK
+
+11 contact us font size small karo in mobile ---- OK
+
+*/
